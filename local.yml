@@ -16,7 +16,7 @@
     copy:
       src: files/wallpaper.png
       dest: /usr/share/backgrounds/ansible-wallpaper.png
-      user: root
+      owner: root
       group: root
 
   - name: set wallpaper
